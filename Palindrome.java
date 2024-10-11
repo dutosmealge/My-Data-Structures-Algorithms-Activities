@@ -6,7 +6,8 @@ public class Palindrome {
 
         System.out.print("Enter a word or phrase: ");
         String input = scanner.nextLine();
-
+        
+        // Declare a boolean if Palindrome if it is true
         boolean isPalindrome = true;
 
         // Iterate through the characters from both ends
@@ -16,7 +17,7 @@ public class Palindrome {
                 break;
             }
         }
-
+        // Using if else statement
         if (isPalindrome) {
             System.out.println("\"" + input + "\" is a palindrome.");
         } else {
