@@ -1,5 +1,5 @@
 class Node {
-	// The data stored in the node
+    // The data stored in the node
     int data;
     // Pointer to the next node in the stack
 	Node next;
@@ -12,7 +12,7 @@ class Node {
 }
 
 class Queue {
-	// Pointer to the front and rear of the queue
+     // Pointer to the front and rear of the queue
     private Node front;
     private Node rear;
 
@@ -62,7 +62,7 @@ class Queue {
 
 public class QueueLinkedList {
     public static void main(String[] args) {
-		// Create a new queue instance
+	// Create a new queue instance
         Queue queue = new Queue();
         // Enqueue the first element, second element, and current state of the queue
         queue.EnQueue(10);
