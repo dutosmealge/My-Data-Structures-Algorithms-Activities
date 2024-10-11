@@ -1,5 +1,5 @@
 class QueueArray {
-	// Array to store the queue elements
+    // Array to store the queue elements
     private int[] queueArray;
     private int front;
     private int rear;
@@ -8,7 +8,7 @@ class QueueArray {
 
     // Constructor to initialize the queue with a specified size
     public QueueArray(int size) {
-		// Set the maximum size
+	// Set the maximum size
         maxSize = size;
         // Create the array to hold the queue elements
         queueArray = new int[maxSize];
