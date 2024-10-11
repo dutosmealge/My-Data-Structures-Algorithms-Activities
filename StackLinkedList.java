@@ -1,5 +1,5 @@
 class Node {
-	// The data stored in the node
+     // The data stored in the node
     int data;
     // Pointer to the next node in the stack
 	Node next;
@@ -12,7 +12,7 @@ class Node {
 }
 
 class Stack {
-	// Pointer to the top node of the stack
+     // Pointer to the top node of the stack
     private Node top;
 
     // Constructor to initialize an empty stack
@@ -56,7 +56,7 @@ class Stack {
 
 public class StackLinkedList {
     public static void main(String[] args) {
-		// Create a new stack instance
+	// Create a new stack instance
         Stack stack = new Stack();
         // Push the first element and second element onto the stack
         stack.push(10);
