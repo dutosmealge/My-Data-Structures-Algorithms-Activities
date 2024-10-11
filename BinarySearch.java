@@ -9,7 +9,7 @@ public class BinarySearch {
         System.out.print("Enter the number of elements: ");
         int n = sc.nextInt();
 
-		// Initialize the array with the specified size
+	// Initialize the array with the specified size
         int[] array = new int[n];
         System.out.println("Enter the elements of the array: ");
 
